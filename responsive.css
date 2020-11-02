@@ -1,0 +1,46 @@
+/*  mobile */
+
+@media (max-width: 400px ) {
+  
+  .menu__nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu__nav ul li {
+    display: inline-block;
+    width: 130px;
+    margin: 5px auto;
+  }
+  .menu__nav a {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: bold;
+  }
+  .menu__logo {
+    margin: 0 auto 10px auto;
+  }
+  .intro__bg {
+    padding-top: 50px;
+    max-height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .intro__heading {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .btn__fox {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+  }
+
+}
